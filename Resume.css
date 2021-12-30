@@ -1,0 +1,73 @@
+
+body{
+   background-color: wheat;
+}
+body h2{
+   color:green;
+}
+
+#border
+{
+   border-style: solid;
+   border-width: 5px;
+   border-color: red;
+   border-radius: 10px;
+   /*border-top-style:solid;
+   border-top-width:10px;
+   border-top-color:red;
+   border-top-left-radius:10px;
+   */
+   padding-left:  20px;
+   padding-right: 20px;
+   padding-top: 5px;
+   padding-bottom:10px
+   /*padding:25px 50px 30px 70px;*/
+}
+
+
+
+.row{
+   flex-direction: row;
+   display: flex;
+   margin: auto;
+}
+
+
+.column-right
+{
+   padding-left:20px;
+}
+
+@media(max-width:700px)
+{
+   .column-left
+   {
+    text-align: center;
+   }
+    .row{
+        flex-direction: column;
+        text-align: justify;
+        
+    }
+    
+}
+
+#v
+{
+   color: red;
+}
+.heading
+{
+   color: red;
+}
+
+.text1
+{
+   text-transform: capitalize;
+}
+.table
+{
+   border:dotted;
+
+}
+
